@@ -304,13 +304,14 @@
             Вставьте дискету, чтобы продолжить
           </p>
         </div>
-        <button
-          class="button window__button"
-          type="button"
-          onclick="window['dialog'].close();"
-        >
-          <span class="button__text">ОК</span>
-        </button>
+        <form method="dialog">
+          <button
+            class="button window__button"
+            type="submit"
+          >
+            <span class="button__text">ОК</span>
+          </button>
+        </form>
       </dialog>
 
     </main>
